@@ -3,14 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="Discover Dagly Decor's decorative wall finishes, textured surfaces, and interior finishing services. Your wish, our job. ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dagly Decor | Make Your Life Luxury</title>
-    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="bootstrap/icons/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
 </head>
 
 <body>
@@ -58,34 +61,53 @@
 
     <!-- Hero Section -->
     <header class="hero" id="home">
-        <div class="container">
+        <!-- Background Video -->
+        <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/1.jpg">
+            <source src="videos/1.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+
+        <!-- Dark Overlay -->
+        <div class="hero-overlay"></div>
+
+        <!-- Hero Content -->
+        <div class="container hero-container">
             <div class="hero-content">
+
                 <p class="hero-label">
                     THE ART OF INTERIOR DECORATION
                 </p>
+
                 <h1>
                     Make Your Life
                     <span>Luxury.</span>
                 </h1>
+
                 <div class="gold-line"></div>
+
                 <p class="hero-description">
                     We transform ordinary walls into extraordinary
                     spaces through elegant decorative finishes,
                     refined textures, and timeless craftsmanship.
                 </p>
+
                 <div class="hero-buttons">
                     <a href="#services" class="btn btn-gold">
                         Explore Our Services
                     </a>
+
                     <a href="#gallery" class="btn btn-outline-gold">
                         View Our Projects
                     </a>
                 </div>
+
                 <p class="hero-tagline">
                     YOUR WISH. OUR JOB.
                 </p>
+
             </div>
         </div>
+
         <div class="hero-number">
             DD / 001
         </div>
@@ -176,7 +198,7 @@
                         </p>
                     </div>
                 </div>
-                <!-- SERIVE 3 -->
+                <!-- SERVICE 3 -->
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="service-number">03</div>
@@ -323,6 +345,7 @@
                     can be showcased here as the portfolio grows.
                 </p>
             </div>
+        </div>
     </section>
 
     <!-- CONTACT SECTION -->
@@ -340,7 +363,14 @@
 
                 <a href="https://wa.me/99371175050" class="btn btn-gold contact-button" target="_blank"
                     rel="noopener noreferrer">
-                    Contact Us on WhatsApp
+                    <i class="bi-whatsapp" aria-hidden="true"></i>
+                    <span>Contact Us on WhatsApps</span>
+                </a>
+
+                <a href="https://www.tiktok.com/@dagly_decor?_r=1&_t=ZS-9AmCLSTq14L" class="btn btn-gold contact-button"
+                target="_blank" rel="noopener noreferrer">
+                    <i class="bi-tiktok" aria-hidden="true"></i>
+                    <span>Follow us on TikTok</span>
                 </a>
 
                 <div class="contact-phone">
